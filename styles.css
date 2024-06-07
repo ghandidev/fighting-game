@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Bungee Spice', sans-serif;
+  font-weight: 400;
+  font-size: 135%;
+}
+
+#container {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+}
+
+#box {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+.playerScore {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.playerBar {
+  background-color: red;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#playerHealth {
+  position: absolute;
+  background: #818cf8;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#timer {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.enemyScore {
+  position: relative;
+  width: 100%;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.enemyBar {
+  background-color: red;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#enemyHealth {
+  position: absolute;
+  background: #818cf8;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#displayText {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+}
+
+#startGame {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 100px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+}
